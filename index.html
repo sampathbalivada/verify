@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSC India Certificate Verification Portal</title>
+    <link rel="stylesheet" href="./main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="./logo.png">
+    </header>
+    <select name="city" id="city-selector" onchange="setCity()">
+        <option>City</option>
+    </select>
+    <select name="college" id="college-selector" onchange="setCollege()">
+        <option>College Name</option>
+    </select>
+    <select name="member" id="member-selector" onchange="getCertificate()">
+        <option>Member Name</option>
+    </select><br />
+    <img src="./placeholder.png" alt="Member Certificate" id="member-cert">
+    <footer>
+        <p>
+            Disclaimer: The core team certificates hosted on this site are created and submitted by Leads of <strong>DSC
+                India 2019-20</strong> and any
+            info about core teams furnished here is not created or shared by Google Developers or Developer Student
+            Clubs
+            Programme.
+        </p>
+    </footer>
+</body>
+<script src="./main.js"></script>
+
+</html>

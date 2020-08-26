@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+}
+
+select {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0.5em 2em 0.5em 0.5em;
+    border: 1px solid #eee;
+    font: inherit;
+    line-height: inherit;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(45deg, transparent 50%, currentColor 50%), linear-gradient(135deg, currentColor 50%, transparent 50%);
+    background-position: right 15px top 1em, right 10px top 1em;
+    background-size: 5px 5px, 5px 5px;
+    -webkit-box-shadow: 6px 6px 18px -16px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 6px 6px 18px -16px rgba(0, 0, 0, 0.6);
+    box-shadow: 6px 6px 18px -16px rgba(0, 0, 0, 0.6);
+    margin: 12px 12px 12px 12px;
+}
+
+footer {
+    width: 100%;
+    background-color: #303C42;
+    margin: 8px 0px 0px 0px;
+    text-align: center;
+}
+
+p {
+    padding: 32px 32px 32px 32px;
+    margin: 0;
+    color: white;
+    text-align: center
+}
+
+#logo {
+    width: 25%;
+    margin-top: 12px;
+}
+
+#member-cert {
+    width: 70%;
+    border: 1px solid #eee;
+    padding: 4px 4px 4px 4px;
+    margin: 16px 16px 16px 16px;
+    -webkit-box-shadow: 6px 6px 18px -16px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 6px 6px 18px -16px rgba(0, 0, 0, 0.4);
+    box-shadow: 6px 6px 18px -16px rgba(0, 0, 0, 0.4);
+}
