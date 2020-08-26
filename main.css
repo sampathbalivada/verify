@@ -53,3 +53,22 @@ p {
     -moz-box-shadow: 6px 6px 18px -16px rgba(0, 0, 0, 0.4);
     box-shadow: 6px 6px 18px -16px rgba(0, 0, 0, 0.4);
 }
+
+@media (max-width: 600px) {
+    #logo {
+        width: 95%;
+    }
+
+    #member-cert {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
+}
+
+@media (max-width: 350px) {
+    body {
+        font-size: 75%;
+    }
+}
